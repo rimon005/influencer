@@ -1,0 +1,71 @@
+*{
+    @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Gruppo&family=Josefin+Sans&family=Poppins:ital,wght@0,400;0,500;1,300&family=Teko:wght@600&display=swap');
+    font-family: 'Poppins', sans-serif;
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar style  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.logo{
+    font-weight: 28px;
+}
+nav h2 span{
+    color: #ea1538;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 35px;
+
+}
+nav ul li a {
+    color:#3A3A3A;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Frist section  style */
+.container{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 100px;
+}
+.frist-sec{
+    width: 50%;
+}
+.left{
+    padding-right: 70px;
+}
+.right{
+    padding-left: 70px;
+}
+.left h2{
+    margin-top: 20px;
+    margin-bottom: 16px;
+    font-size: 52px;
+    font-weight: 700;
+}
+.left p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.left a {
+    text-decoration: none;
+    color: white;
+    background: #E02C6D;
+    padding: 10px 25px;
+    border-radius: 50px;
+
+}
+.right img{
+    width: 440px;
+    height: 414px;
+    border: 1px solid rgb(218, 210, 210);
+    border-radius: 50%;
+}
